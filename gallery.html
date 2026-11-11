@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery | Music Across Borders</title>
+  <meta name="description" content="Photographs from Music Across Borders events, workshops and residencies.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="inner">
+      <a class="site-title" href="index.html">Music Across Borders</a>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Vision</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <h1>Gallery</h1>
+    <p class="lead">Moments from our events, workshops and residencies.</p>
+
+    <!-- Filled in by gallery.js from the list of photos in that file -->
+    <div class="gallery-grid" id="gallery-grid"></div>
+    <noscript><p>Please enable JavaScript to view the photo gallery.</p></noscript>
+  </main>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Enlarged photo">
+    <button type="button" class="lightbox-close" aria-label="Close">&times;</button>
+    <figure style="margin:0">
+      <img id="lightbox-img" src="" alt="">
+      <figcaption id="lightbox-caption"></figcaption>
+    </figure>
+  </dialog>
+
+  <footer class="site-footer">
+    <div class="inner">
+      <p>Music Across Borders is a registered Scottish charity, SC050479.</p>
+    </div>
+  </footer>
+
+  <script src="gallery.js"></script>
+</body>
+</html>
