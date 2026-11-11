@@ -5,6 +5,7 @@ A simple static site with three pages: Vision, Contact and Gallery.
 ## Files
 
 - `index.html`: Vision page (home)
+- `events.html`: Events page
 - `contact.html`: Contact page
 - `gallery.html`: Gallery page
 - `styles.css`: shared styles

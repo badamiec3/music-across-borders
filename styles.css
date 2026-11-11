@@ -182,6 +182,44 @@ main {
   margin: 0.2rem 0 0;
 }
 
+/* Events */
+
+.event {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  background: #fff;
+  border: 1px solid var(--colour-border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 1rem;
+}
+
+.event-date {
+  background: var(--colour-accent-light);
+  color: var(--colour-accent);
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 1rem 0.5rem;
+  border-radius: 6px;
+}
+
+.event h3 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.event p {
+  margin: 0.5rem 0 0;
+}
+
+.event-meta {
+  color: var(--colour-muted);
+}
+
 /* Trustees */
 
 .trustee {
@@ -325,6 +363,7 @@ main {
     gap: 0.9rem;
   }
 
+  .event,
   .trustee {
     grid-template-columns: 1fr;
   }
