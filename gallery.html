@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en-GB">
+<html lang="en-GB" class="has-hero">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,7 +12,9 @@
 
   <header class="site-header">
     <div class="inner">
-      <a class="site-title" href="index.html">Music Across Borders</a>
+      <a href="index.html" aria-label="Music Across Borders — home">
+        <img class="site-logo" src="images/gallery/logo-white.jpeg" alt="Music Across Borders">
+      </a>
       <nav class="site-nav" aria-label="Main">
         <ul>
           <li><a href="index.html">Vision</a></li>
@@ -24,10 +26,12 @@
     </div>
   </header>
 
-  <main id="main">
+  <div class="hero">
     <h1>Gallery</h1>
     <p class="lead">Moments from our events, workshops and residencies.</p>
+  </div>
 
+  <main id="main">
     <!-- Filled in by gallery.js from the list of photos in that file -->
     <div class="gallery-grid" id="gallery-grid"></div>
     <noscript><p>Please enable JavaScript to view the photo gallery.</p></noscript>
@@ -43,7 +47,8 @@
 
   <footer class="site-footer">
     <div class="inner">
-      <p>Music Across Borders is a registered Scottish charity, SC050479.</p>
+      <span class="footer-accent">Music Across Borders</span>
+      <p>Registered Scottish charity, SC050479.</p>
     </div>
   </footer>
 

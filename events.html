@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en-GB">
+<html lang="en-GB" class="has-hero">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,7 +12,9 @@
 
   <header class="site-header">
     <div class="inner">
-      <a class="site-title" href="index.html">Music Across Borders</a>
+      <a href="index.html" aria-label="Music Across Borders — home">
+        <img class="site-logo" src="images/gallery/logo-white.jpeg" alt="Music Across Borders">
+      </a>
       <nav class="site-nav" aria-label="Main">
         <ul>
           <li><a href="index.html">Vision</a></li>
@@ -24,13 +26,16 @@
     </div>
   </header>
 
-  <main id="main">
+  <div class="hero">
     <h1>Events</h1>
     <p class="lead">Join us for live music, workshops and social gatherings with world music ensembles from across Scotland and beyond.</p>
+  </div>
 
+  <main id="main">
     <h2>Upcoming</h2>
+    <p>Watch this space for upcoming events!</p>
 
-    <article class="event">
+    <!-- <article class="event">
       <div class="event-date">
         <time datetime="2027-01-01">[Date]</time>
       </div>
@@ -40,9 +45,9 @@
         <p>[A short description of the event: who is performing, what to expect, and whether it is suitable for all ages.]</p>
         <p class="event-meta">[Free / £X / Pay what you can] &middot; <a href="mailto:musicacrossbordersuk@gmail.com">Contact us for details</a></p>
       </div>
-    </article>
+    </article> -->
 
-    <article class="event">
+    <!-- <article class="event">
       <div class="event-date">
         <time datetime="2027-01-01">[Date]</time>
       </div>
@@ -52,9 +57,9 @@
         <p>[A short description of the workshop and who it is for.]</p>
         <p class="event-meta">[Free / £X / Pay what you can] &middot; <a href="mailto:musicacrossbordersuk@gmail.com">Contact us for details</a></p>
       </div>
-    </article>
+    </article> -->
 
-    <article class="event">
+    <!-- <article class="event">
       <div class="event-date">
         <time datetime="2027-01-01">[Date]</time>
       </div>
@@ -64,7 +69,7 @@
         <p>[A short description of the gathering.]</p>
         <p class="event-meta">[Free / £X / Pay what you can] &middot; <a href="mailto:musicacrossbordersuk@gmail.com">Contact us for details</a></p>
       </div>
-    </article>
+    </article> -->
 
     <h2>Past events</h2>
     <p>Photos from previous events are in our <a href="gallery.html">gallery</a>.</p>
@@ -72,7 +77,8 @@
 
   <footer class="site-footer">
     <div class="inner">
-      <p>Music Across Borders is a registered Scottish charity, SC050479.</p>
+      <span class="footer-accent">Music Across Borders</span>
+      <p>Registered Scottish charity, SC050479.</p>
     </div>
   </footer>
 </body>

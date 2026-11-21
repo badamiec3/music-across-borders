@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en-GB">
+<html lang="en-GB" class="has-hero">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,7 +12,9 @@
 
   <header class="site-header">
     <div class="inner">
-      <a class="site-title" href="index.html">Music Across Borders</a>
+      <a href="index.html" aria-label="Music Across Borders — home">
+        <img class="site-logo" src="images/gallery/logo-white.jpeg" alt="Music Across Borders">
+      </a>
       <nav class="site-nav" aria-label="Main">
         <ul>
           <li><a href="index.html" aria-current="page">Vision</a></li>
@@ -24,10 +26,12 @@
     </div>
   </header>
 
-  <main id="main">
+  <div class="hero">
     <h1>Our Vision</h1>
     <p class="lead">We envision a Scotland in which cultural diversity is actively valued, and where shared musical experiences contribute to personal wellbeing, social connection and a strong sense of collective belonging.</p>
+  </div>
 
+  <main id="main">
     <h2>Our Mission</h2>
     <p>Our mission is to promote cultural diversity, personal wellbeing and social interconnectedness by bringing world music ensembles and audiences together in inclusive, accessible shared spaces. Through live music and cultural exchange, we aim to support emotional wellbeing, reduce social isolation and foster understanding, mutual respect and connection across communities.</p>
     <p>We work to support artists, engage audiences and create opportunities for meaningful participation with diverse musical traditions, recognising music as a powerful tool for individual wellbeing and for strengthening social bonds.</p>
@@ -69,7 +73,8 @@
 
   <footer class="site-footer">
     <div class="inner">
-      <p>Music Across Borders is a registered Scottish charity, SC050479.</p>
+      <span class="footer-accent">Music Across Borders</span>
+      <p>Registered Scottish charity, SC050479.</p>
     </div>
   </footer>
 </body>
