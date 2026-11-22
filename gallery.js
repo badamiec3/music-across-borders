@@ -6,13 +6,13 @@
 //   caption: short description, used as the caption and alt text
 // ---------------------------------------------------------------
 const photos = [
-  { file: "placeholder-1.svg", caption: "Placeholder photo 1" },
-  { file: "logo-black.jpeg", caption: "Placeholder photo 2" },
-  { file: "placeholder-3.svg", caption: "Placeholder photo 3" },
-  { file: "logo-white.jpeg", caption: "Placeholder photo 4" },
-  { file: "placeholder-5.svg", caption: "Placeholder photo 5" },
-  { file: "3368f4.jpeg", caption: "Placeholder photo 6" },
-  { file: "196501.jpeg", caption: "Placeholder photo 7" },
+  { file: "world-map-music.jpg", caption: "Placeholder photo 1" },
+  { file: "sitar.jpg", caption: "Placeholder photo 2" },
+  { file: "choghur.jpg", caption: "Placeholder photo 3" },
+  { file: "djembe.jpg", caption: "Placeholder photo 4" },
+  { file: "bass-crab.jpg", caption: "Placeholder photo 5" },
+  { file: "animal-jam.jpeg", caption: "Placeholder photo 6" },
+  { file: "organ-rabbit.jpeg", caption: "Placeholder photo 7" },
 ];
 
 // ---------------------------------------------------------------

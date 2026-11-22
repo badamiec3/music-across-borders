@@ -9,8 +9,6 @@
   --colour-accent:        #e07a3a;
   --colour-accent-dark:   #c94f2c;
   --colour-accent-light:  #3a2318;
-  --colour-green:         #7a8c5c;
-  --colour-green-dark:    #2a3020;
   --colour-purple:        #5a4f6b;
   --colour-beige:         #e8d5b0;
   --colour-border:        #2e2b27;
@@ -118,7 +116,7 @@ h3 {
 
 .site-logo {
   display: block;
-  height: 48px;
+  height: 96px;
   width: auto;
 }
 
@@ -244,7 +242,8 @@ main {
 }
 
 .card ul {
-  padding-left: 1.25rem;
+  padding-left: 0;
+  list-style: none;
   color: var(--colour-text);
 }
 
@@ -329,7 +328,7 @@ main {
 }
 
 .trustee:hover {
-  border-color: var(--colour-green);
+  border-color: var(--colour-accent);
 }
 
 .trustee img {
